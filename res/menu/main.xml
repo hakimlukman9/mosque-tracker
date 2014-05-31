@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/refresh"
+        android:title="Refresh"></item>
+    <item android:id="@+id/menu"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/menu"
+        android:title="Menu">
+        <menu>
+            <item android:id="@+id/menuprayertimes"
+                android:title="Prayer Times"/>
+            
+            <item android:id="@+id/menuqibla"
+                android:title="Qibla"/>
+            <item android:id="@+id/about"
+                android:title="About"/>
+    	</menu>
+    </item>
+   
+</menu>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+	    android:layout_height="match_parent"   
+    android:background="@drawable/jadwal2"
+	    android:orientation="vertical" >
+	    <ScrollView 
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false" >
+        
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+     	<TextView
+        	android:id="@+id/title"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginBottom="20dp"
+        	android:text="Prayer Times"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center" >
+
+        	<TextView
+            	android:id="@+id/subuh"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:text="Subuh"
+            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        	<TextView
+            	android:id="@+id/textView1"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text=":"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            	android:id="@+id/subuhtime"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    	</LinearLayout>
+
+   		<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center" >
+
+        	<TextView
+            	android:id="@+id/dzuhur"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:text="Dzuhur"
+            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        	<TextView
+            	android:id="@+id/textView2"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text=":"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+			<TextView
+            	android:id="@+id/dzuhurtime"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center" >
+
+        	<TextView
+            	android:id="@+id/Ashr"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:text="Ashr"
+            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        	<TextView
+            	android:id="@+id/textView3"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text=":"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+			<TextView
+            	android:id="@+id/Ashrtime"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center" >
+
+        	<TextView
+            	android:id="@+id/magrib"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:text="Magrib"
+            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        	<TextView
+            	android:id="@+id/textView4"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text=":"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+			<TextView
+            	android:id="@+id/magribtime"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center" >
+
+        	<TextView
+            	android:id="@+id/isha"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:text="Isya"
+            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        	<TextView
+            	android:id="@+id/textView5"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text=":"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+			<TextView
+            	android:id="@+id/ishatime"
+            	android:layout_width="100dp"
+            	android:layout_height="wrap_content"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+
+    	<Button
+        	android:id="@+id/setalarm"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="30dp"
+        	android:text="Set alarm for each prayer times" />
+
+	</LinearLayout>
+       
+</ScrollView>
+ </LinearLayout>
+
+
+
+
+
+
+
+
+
+   
